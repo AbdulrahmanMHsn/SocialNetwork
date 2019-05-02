@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_post"
+        android:icon="@mipmap/add_post"
+        android:title="@string/nav_post" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@mipmap/profile_icon"
+        android:title="@string/nav_profile" />
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@mipmap/home"
+        android:title="@string/nav_home" />
+
+    <item
+        android:id="@+id/nav_friends"
+        android:icon="@mipmap/friends"
+        android:title="@string/nav_friends" />
+
+    <item
+        android:id="@+id/nav_find_friends"
+        android:icon="@mipmap/find_people"
+        android:title="@string/nav_find_friends" />
+
+    <item
+        android:id="@+id/nav_messages"
+        android:icon="@drawable/ic_chat_black"
+        android:title="@string/nav_chat" />
+
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@mipmap/settings"
+        android:title="@string/nav_setting" />
+
+
+    <!--<item-->
+        <!--android:id="@+id/nav_logout"-->
+        <!--android:icon="@mipmap/logout"-->
+        <!--android:title="@string/nav_logout" />-->
+
+
+</menu>

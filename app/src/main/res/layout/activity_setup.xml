@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".setup.SetupActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="16dp">
+
+        <!--  Image Profile Label -->
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/setup_image_profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/profile"
+            app:civ_border_color="@color/colorPrimary"
+            app:civ_border_width="4dp" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="140dp"
+            android:layout_marginRight="140dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_camera" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/setup_edtxt_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginTop="@dimen/very_large_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            android:autofillHints="@string/setup_username"
+            android:hint="@string/setup_username"
+            android:inputType="text"
+            android:layoutDirection="ltr"
+            android:maxLines="1"
+            android:minHeight="@dimen/normal_hight_button"
+            android:paddingHorizontal="@dimen/normal_margin"
+            android:shadowColor="@color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textDirection="ltr" />
+
+        <EditText
+            android:layout_marginTop="@dimen/very_large_margin"
+            android:id="@+id/setup_edtxt_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            android:autofillHints="@string/setup_fullname"
+            android:hint="@string/setup_fullname"
+            android:inputType="text"
+            android:layoutDirection="ltr"
+            android:maxLines="1"
+            android:minHeight="@dimen/normal_hight_button"
+            android:paddingHorizontal="@dimen/normal_margin"
+            android:shadowColor="@color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textDirection="ltr" />
+
+        <EditText
+            android:layout_marginTop="@dimen/very_large_margin"
+            android:id="@+id/setup_edtxt_country"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            android:autofillHints="@string/setup_country"
+            android:hint="@string/setup_country"
+            android:inputType="text"
+            android:layoutDirection="ltr"
+            android:maxLines="1"
+            android:minHeight="@dimen/normal_hight_button"
+            android:paddingHorizontal="@dimen/normal_margin"
+            android:shadowColor="@color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textDirection="ltr" />
+
+
+        <Button
+            android:id="@+id/setup_bttn_save"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/large_margin"
+            android:layout_marginRight="@dimen/large_margin"
+            android:layout_marginTop="@dimen/very_large_margin"
+            android:background="@drawable/custom_button_pet"
+            android:text="@string/setup_save"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/signUp_txtv_create"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Create your account"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="32sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/signUp_txtv_create"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/register_edtxt_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginTop="@dimen/very_large_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            android:layout_marginBottom="@dimen/normal_margin"
+            android:autofillHints="@string/register_email"
+            android:background="@drawable/custom_edtxt"
+            android:hint="@string/register_email"
+            android:inputType="textEmailAddress"
+            android:layoutDirection="ltr"
+            android:maxLines="1"
+            android:minHeight="@dimen/normal_hight_button"
+            android:paddingHorizontal="@dimen/normal_margin"
+            android:shadowColor="@color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textDirection="ltr"
+            android:textSize="32sp" />
+
+        <EditText
+            android:layout_below="@+id/register_edtxt_email"
+            android:id="@+id/register_edtxt_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginTop="@dimen/large_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            android:layout_marginBottom="@dimen/normal_margin"
+            android:autofillHints="@string/register_password"
+            android:background="@drawable/custom_edtxt"
+            android:hint="@string/register_password"
+            android:inputType="textPassword"
+            android:layoutDirection="ltr"
+            android:maxLines="1"
+            android:minHeight="@dimen/normal_hight_button"
+            android:paddingHorizontal="@dimen/normal_margin"
+            android:shadowColor="@color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textDirection="ltr"
+            android:textSize="32sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/large_margin"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

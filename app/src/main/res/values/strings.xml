@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Social Network</string>
+
+    <!--Login-->
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_forgot_password">Forgot password ?</string>
+    <string name="login_login">Login</string>
+    <string name="login_welcome">Welcome" "</string>
+    <string name="login_Please_login_here">Please login here</string>
+    <string name="login_register">Sign up</string>
+    <string name="create_a_new_account">Create a new account ?</string>
+    <!--..................................................-->
+
+    <!--Register-->
+    <string name="register_fname">First Name</string>
+    <string name="register_lname">Last Name</string>
+    <string name="register_username">Username</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Password</string>
+    <string name="register_conpassword">Confirm Password</string>
+    <string name="register_mobile">Mobile</string>
+    <string name="register_gender">Gender</string>
+    <string name="register_gender_male">Male</string>
+    <string name="register_gender_female">Female</string>
+    <string name="register_create">Create</string>
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+
+    <!--Error Register-->
+    <string name="first_name_is_required">First name is required</string>
+    <string name="last_name_is_required">Last name is required</string>
+    <string name="user_name_is_required">Username is required</string>
+    <string name="email_is_required">Email is required</string>
+    <string name="please_enter_a_valid_email">please enter a valid email</string>
+    <string name="password_is_required">Password is required!</string>
+    <string name="Minimum_lenght_of_password_should_be_6">Minimum lenght of password should be 6</string>
+    <string name="conPassword_is_required">conPassword is required!</string>
+    <string name="phone_is_required">Phone number is required</string>
+    <string name="enter_real_phone">Enter real phone</string>
+
+    <!--..................................................-->
+
+
+    <!--Setup-->
+    <string name="setup_username">Username</string>
+    <string name="setup_fullname">Full Name</string>
+    <string name="setup_country">Counry</string>
+    <string name="setup_save">Save</string>
+    <!--..................................................-->
+
+    <!--Navigation-->
+    <string name="nav_post">Add New Post</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_friends">Friends</string>
+    <string name="nav_find_friends">Find Friends</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_setting">Setting</string>
+    <string name="nav_logout">Logout</string>
+    <!--..................................................-->
+
+
+</resources>

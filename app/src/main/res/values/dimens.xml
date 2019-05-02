@@ -1,0 +1,53 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="normal_hight_text">30dp</dimen>
+    <dimen name="normal_hight_button">40dp</dimen>
+    <dimen name="normal_width_button">60dp</dimen>
+
+
+    <!--<dimen name="toolBar_hight">90dp</dimen>-->
+    <dimen name="Logo_hight">150dp</dimen>
+    <dimen name="Logo_width">200dp</dimen>
+
+
+    <dimen name="toolBar_hight">60dp</dimen>
+
+    <!--margin-->
+    <dimen name="the_biggest_margin">40dp</dimen>
+    <dimen name="very_large_margin">24dp</dimen>
+    <dimen name="large_margin">16dp</dimen>
+    <dimen name="normal_margin">8dp</dimen>
+    <dimen name="small_margin">5dp</dimen>
+    <dimen name="small_padding">13dp</dimen>
+
+
+
+    <!--&lt;!&ndash;text&ndash;&gt;-->
+    <dimen name="title_text">30sp</dimen>
+    <dimen name="very_large_text">20sp</dimen>
+    <dimen name="large_text">15sp</dimen>
+    <dimen name="normal_text">13sp</dimen>
+    <dimen name="small_text">10sp</dimen>
+
+
+    <dimen name="icon_size">40dp</dimen>
+    <dimen name="icon_size_large">70dp</dimen>
+    <dimen name="sginup_icon_size">80dp</dimen>
+
+
+    <dimen name="button_hight_large">50dp</dimen>
+    <dimen name="button_hight_normal">40dp</dimen>
+
+    <dimen name="button_width_large">300dp</dimen>
+    <dimen name="button_width_normal">200dp</dimen>
+    <dimen name="button_width_small">100dp</dimen>
+
+
+    <integer name="animation_dur_medium">1000</integer>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+</resources>
